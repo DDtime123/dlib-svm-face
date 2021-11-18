@@ -2,3 +2,7 @@
 2. 线性核训练 svm-train -t 0 libsvm.txt  iristrainLinear.model
 3. 多项式核训练 svm-train -t 1 libsvm.txt  iristrainPoly.model
 4. RBF核训练 svm-train -t 2 libsvm.txt  iristrainRBF.model
+
+5. 线性核预测 svm-predict libsvm.txt iristrainLinear.model linearoutput
+6. 多项式核预测 svm-predict libsvm.txt iristrainPoly.model polyoutput  
+7. RBF核预测 svm-predict libsvm.txt iristrainRBF.model RBFput
