@@ -1,0 +1,4 @@
+1. 导航至 libsvm3.25/windows/
+2. 线性核训练 svm-train -t 0 libsvm.txt  iristrainLinear.model
+3. 多项式核训练 svm-train -t 1 libsvm.txt  iristrainPoly.model
+4. RBF核训练 svm-train -t 2 libsvm.txt  iristrainRBF.model
